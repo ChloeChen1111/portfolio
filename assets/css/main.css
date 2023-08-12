@@ -188,9 +188,7 @@ body,
 input,
 select,
 textarea {
-  color: #2274b1;
-  /* font-family: "Quicksand", sans-serif;
-  font-family: "Montserrat Alternates", sans-serif; */
+  color: var(--main-blue);
   font-family: "Roboto Condensed", sans-serif;
 
   font-size: 20pt;
@@ -236,7 +234,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #2274b1;
+  color: var(--main-blue);
   font-weight: 700;
   line-height: 1em;
   margin: 0 0 0.5625em 0;
@@ -359,7 +357,7 @@ pre code {
 
 .row.gtr-uniform > * > :last-child {
   margin-bottom: 0;
-  border-color: #2274b1;
+  border-color: var(--main-blue);
 }
 
 .row.aln-left {
@@ -2732,7 +2730,7 @@ input[type="button"]:disabled,
 /* Features */
 
 .features article {
-  border-top: solid 3px #2274b1;
+  border-top: solid 3px var(--main-blue);
   margin-bottom: 2.25em;
   padding-top: 2.25em;
 }
@@ -2921,7 +2919,6 @@ input[type="button"]:disabled,
 /* Wrapper */
 
 #wrapper {
-  background: black;
   padding-right: 23em;
 }
 
@@ -2933,7 +2930,7 @@ input[type="button"]:disabled,
 }
 
 #main > section > .container {
-  padding: 6em 0 4em 0;
+  padding: 2em 0 4em 0;
 }
 
 #main > section:first-child {
@@ -3010,7 +3007,7 @@ input[type="button"]:disabled,
   /* Main */
 
   #main > section > .container {
-    padding: 4em 0 2em 0;
+    padding: 2em 0 2em 0;
   }
 }
 
@@ -3436,40 +3433,11 @@ canvas {
   max-width: 100vw;
   max-height: 447px;
   border-radius: 10px;
-  /* border-bottom: solid 6px var(--main-blue); */
-}
-
-#one {
-  margin-top: -80px;
-}
-
-body {
-  background: black;
-}
-
-#one {
-  background: black;
-}
-
-#two {
-  background: black;
-}
-
-#three {
-  background: black;
-}
-
-#four {
-  background: black;
 }
 
 #footer {
   background: var(--main-blue);
 }
-
-/* #header {
-		width: 25em;
-	} */
 
 #header h1 a {
   font-size: 36pt;
@@ -3478,7 +3446,6 @@ body {
 
 #header > header p {
   color: white;
-  /* font-style: italic; */
   margin: 1em 0 0 0;
   font-weight: 600;
   font-size: 16pt;
@@ -3500,11 +3467,6 @@ body::-webkit-scrollbar {
   width: 0.5em;
 }
 
-/* body::-webkit-scrollbar-track {
-		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-
-	} */
-
 body::-webkit-scrollbar-thumb {
   background-color: white;
   outline: 1px solid var(--main-blue);
@@ -3515,10 +3477,6 @@ section::-webkit-scrollbar {
   width: 0.5em;
 }
 
-/* section::-webkit-scrollbar-track {
-		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	} */
-
 section::-webkit-scrollbar-thumb {
   background-color: white;
   outline: 1px solid var(--main-blue);
@@ -3528,10 +3486,6 @@ section::-webkit-scrollbar-thumb {
 a::-webkit-scrollbar {
   width: 0.5em;
 }
-
-/* a::-webkit-scrollbar-track {
-		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	} */
 
 a::-webkit-scrollbar-thumb {
   background-color: var(--main-text-color);
