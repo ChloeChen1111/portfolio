@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <!-- saved from url=(0095)file:///Users/nerochan25/Desktop/JavaScript30-master/02%20-%20JS%20and%20CSS%20Clock/index.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
   <title>JS + CSS Clock</title>
 </head>
+
 <body>
 
 
-    <div class="clock">
-      <div class="clock-face">
-        <div class="hand hour-hand" style="transform: rotate(720deg); height: 15px; background: rgb(178, 223, 244);"></div>
-        <div class="hand min-hand" style="transform: rotate(252deg);"></div>
-        <div class="hand second-hand" style="transform: rotate(192deg); background: rgb(178, 223, 244); height: 3px;"></div>
+  <div class="clock">
+    <div class="clock-face">
+      <div class="hand hour-hand" style="transform: rotate(720deg); height: 15px; background: rgb(178, 223, 244);">
+      </div>
+      <div class="hand min-hand" style="transform: rotate(252deg);"></div>
+      <div class="hand second-hand" style="transform: rotate(192deg); background: rgb(178, 223, 244); height: 3px;">
       </div>
     </div>
+  </div>
 
 
   <style>
@@ -43,10 +49,10 @@
       position: relative;
       padding: 10rem;
       box-shadow:
-        0 0 0 4px rgba(0,0,0,0.1),
+        0 0 0 4px rgba(0, 0, 0, 0.1),
         inset 0 0 0 3px #EFEFEF,
         inset 0 0 10px black,
-        0 0 10px rgba(0,0,0,0.2);
+        0 0 10px rgba(0, 0, 0, 0.2);
       background: url('https://readyandroid.files.wordpress.com/2015/09/clock.png?w=700');
       background-image: cover;
     }
@@ -55,7 +61,8 @@
       position: relative;
       width: 100%;
       height: 100%;
-      transform: translateY(-3px); /* account for the height of the clock hands */
+      transform: translateY(-3px);
+      /* account for the height of the clock hands */
     }
 
     .hand {
@@ -69,7 +76,6 @@
       transition: all 0.05s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
-
   </style>
 
   <script>
@@ -104,4 +110,6 @@
   </script>
 
 
-</body></html>
+</body>
+
+</html>

@@ -2741,15 +2741,11 @@ input[type="button"]:disabled,
 }
 
 .features article .image {
-  /* display: inline-block;
-			padding-right: 2.5em;
-			vertical-align: middle;
-			width: 48%; */
   width: 100%;
   position: relative;
   margin-bottom: 0rem;
   display: block;
-  height: 493px;
+  height: 400px;
   overflow: scroll;
   scroll-behavior: smooth;
 }
@@ -3488,8 +3484,8 @@ a::-webkit-scrollbar {
 }
 
 a::-webkit-scrollbar-thumb {
-  background-color: var(--main-text-color);
-  outline: 1px solid slategrey;
+  background-color: white;
+  outline: 1px solid var(--main-blue);
   border-radius: 8px;
 }
 

@@ -17,7 +17,7 @@ function init() {
   scene = new THREE.Scene();
   scene.background = new THREE.Color("white");
   scene.fog = new THREE.Fog(0xffffff, 1, 10000);
-  var geometry = new THREE.BoxBufferGeometry(100, 100, 100);
+  var geometry = new THREE.PlaneGeometry(100, 100);
   var material = new THREE.MeshNormalMaterial();
   group = new THREE.Group();
   for (var i = 0; i < 1000; i++) {
