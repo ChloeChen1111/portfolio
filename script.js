@@ -8,10 +8,10 @@ animate();
 
 function init() {
   camera = new THREE.PerspectiveCamera(
-    60,
+    50,
     window.innerWidth / window.innerHeight,
-    1,
-    10000
+    100,
+    20000
   );
   camera.position.z = 500;
   scene = new THREE.Scene();
